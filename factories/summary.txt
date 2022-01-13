@@ -1,0 +1,7 @@
+A Factory method is a static method that creates objects
+
+A Factory is any entity that can take care of object creation
+
+A Factory can be external or reside inside the object as an inner class
+
+Hierarchies of factories can be used to related objects
