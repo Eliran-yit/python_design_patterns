@@ -1,0 +1,7 @@
+Implementing an Adapter is easy
+
+Determine the Api you have and the API you use
+
+Create a component which aggregates (has a reference to, ...) the adaptee
+
+Intermediate representations can pile up: use caching and other optimizations
