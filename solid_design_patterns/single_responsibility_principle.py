@@ -38,17 +38,17 @@ class PersistenceManager:
         file.close()
 
 
-j = Journal()
-j.add_entry("first record.")
-j.add_entry("second record.")
-print(f"Journal entries:\n{j}\n")
+if __name__ == '__main__':
+    j = Journal()
+    j.add_entry("first record.")
+    j.add_entry("second record.")
+    print(f"Journal entries:\n{j}\n")
 
+    p = PersistenceManager()
+    file = f'journal.txt'
 
-p = PersistenceManager()
-file = f'/Builder/journal.txt'
+    p.save_to_file(j, file)
 
-p.save_to_file(j, file)
-
-# verify!
-with open(file) as fh:
-    print(fh.read())
+    # verify!
+    with open(file) as fh:
+        print(fh.read())

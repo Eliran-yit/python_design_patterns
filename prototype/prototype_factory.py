@@ -53,6 +53,8 @@ class EmployeeFactory:
 # john.address.suite = 101
 # print(john)
 
-# would prefer to write just one line of code
-jane = EmployeeFactory.new_aux_office_employee("Jane", 200)
-print(jane)
+
+if __name__ == '__main__':
+    # would prefer to write just one line of code:
+    jane = EmployeeFactory.new_aux_office_employee("Jane", 200)
+    print(jane)

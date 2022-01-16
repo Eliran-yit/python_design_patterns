@@ -85,6 +85,7 @@ class MultiFunctionMachine(MultiFunctionDevice):
         self.scanner.scan(document)
 
 
-printer = OldFashionedPrinter()
-printer.fax(123)  # nothing happens
-printer.scan(123)  # oops!
+if __name__ == '__main__':
+    printer = OldFashionedPrinter()
+    printer.fax(123)  # nothing happens
+    printer.scan(123)  # oops!

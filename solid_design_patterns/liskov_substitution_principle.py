@@ -50,8 +50,9 @@ def use_it(rc):
     print(f'Expected an area of {expected}, got {rc.area}')
 
 
-rc = Rectangle(2, 3)
-use_it(rc)
+if __name__ == '__main__':
+    rc = Rectangle(2, 3)
+    use_it(rc)
 
-sq = Square(5)
-use_it(sq)
+    sq = Square(5)
+    use_it(sq)
