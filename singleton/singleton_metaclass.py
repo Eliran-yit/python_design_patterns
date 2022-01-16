@@ -1,4 +1,4 @@
-
+# Create one instance of the database
 
 class Singleton(type):
     """ Metaclass that creates a Singleton base type when called. """

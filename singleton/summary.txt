@@ -1,0 +1,7 @@
+Different realizations of Singleton: custom allocator, decorator, metaclass
+
+Laziness is easy, just init on first request
+
+Monostate variation
+
+Testability issues

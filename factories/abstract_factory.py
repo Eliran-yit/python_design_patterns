@@ -79,4 +79,5 @@ if __name__ == '__main__':
 
     hdm = HotDrinkMachine()
     drink = hdm.make_drink()
+    # consume dynamically the drink chosen by the user - by the logic in make_drink in HotDrink class
     drink.consume()

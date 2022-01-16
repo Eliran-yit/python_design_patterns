@@ -12,3 +12,8 @@ Need to take care of lazy instantiation
 
 
 Singleton is a component which is instantiated only once
+
+
+ADVICE:
+    You can try combine the other ways that has singleton in their name inside the other_uses.
+    Know that the singleton_metaclass is the best way to implement it.
