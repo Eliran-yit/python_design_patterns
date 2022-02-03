@@ -1,0 +1,7 @@
+A proxy has the same interface as the underlying object
+
+to create a proxy, simply replicate the existing interface of an object
+
+Add a relevant functionality to the redefined member functions.
+
+Different proxies (communication, logging, caching, etc.) have completely different behaviors.
