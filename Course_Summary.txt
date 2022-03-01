@@ -1,0 +1,114 @@
+
+-----------
+Creation Design Pattern
+----------
+
+    Builder
+        Separate component for when object construction gets too complicated
+        Can create mutually cooperating sub-builders
+        Often has a fluent interface
+
+    Factories
+        Factory method more expressive than initializer
+        Factory can be an outside class or inner class
+
+    Prototype
+        Creation of object from an existing object
+        Requires explicit deep copy
+
+    Singleton
+        When you need to ensure just a single instance exists
+        Easy to make with a decorator or metaclass
+        Consider using dependency injection
+
+
+
+-----------
+Structural 1 Design Pattern
+----------
+
+    Adapter
+        converts the interface you get ti the interface you need
+
+    Bridge
+        Decouple abstraction from implementation
+
+    Composite
+        Allows clients to treat individual objects and compositions of objects uniformly
+
+    Decorator
+        Attach additional responsibilities to objects
+        python has functional decorators
+
+
+-----------
+Structural 2 Design Pattern
+----------
+
+    Facade
+        Provide a single unified interface over a set of interfaces
+        friendly and easy to use, but can provide access to low level features
+
+    Flyweight
+        Efficiently support very large members of similar objects
+
+    Proxy
+        Provide a surrogate object that forwards calls to the real object while performing additional functions.
+        E.g., access control, communication, logging, etc.
+
+
+
+
+-----------
+Behavioral 1 Design Pattern
+----------
+
+    Chain of responsibility
+        Allow components to process information/events in a chain
+        Each element in the chain refers to next element
+        Make a list and go through it
+
+    Command
+        Encapsulate a request into a separate object
+        Good for audit, replay, undo/redo
+        Part of CQS/CQRS
+
+    Interpreter
+        Transform textual input into object-oriented structures
+        Used by interpreters, compilers, static analysis tools, etc.
+        Compiler Theory is a separate branch of Computer Science.
+
+    Iterator
+        Provides as interface for accessing elements of an aggregate object
+        __iter__/__next__ are stateful, but yield is much more convenient
+
+
+
+
+-----------
+Behavioral 2 Design Pattern
+----------
+
+    Mediator
+        Provides mediation services between two objects
+        E.g., message passing, chat room
+
+    Memento
+        Yields tokens representing system states
+        Tokens do not allow direct manipulation, but can be used in appropriate APIs
+
+    Observer
+        Allows notifications of changes/happenings in a component
+
+    State
+        We model systems by having one of possible states and transitions between these states
+        such a system called a state machine
+        Special frameworks exists to orchestrate state machines
+
+    Strategy and Template Method
+        Both define a skeleton algorithm with details filled in by implementor
+        Strategy uses ordinary composition, template method uses inheritance
+
+    Visitor
+        Allows non-intrusive addition of functionality to hierarchies
+
