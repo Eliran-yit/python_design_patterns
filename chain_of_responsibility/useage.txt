@@ -1,0 +1,17 @@
+Unethical behavior by an employee; who takes the blame?
+    Employee
+    Manager
+    CEO
+
+You click a graphical element on a form
+    Button handles it, stops further processing
+    Underlying group box
+    underlying window
+
+CGG computer game
+    Creature has attack and defence values
+    Those can be boosted by other cards
+
+
+A chain of components who all get a chance to process a command or a query,
+optionally having a default processing implementation and an ability to terminate the processing chain.
