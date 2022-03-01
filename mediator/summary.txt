@@ -1,0 +1,10 @@
+Create the mediator and have each object in the system refer to it
+    E.g., in a property
+
+Mediator engages in bidirectional communication with its connected components
+
+Mediator has functions the components can call
+
+Components have functions the mediator can call
+
+Event processing (e.g., Rx) libraries make communication easier to implement

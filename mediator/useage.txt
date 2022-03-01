@@ -1,0 +1,12 @@
+Components may go in and out of a system at any time
+    chat room participants
+    players is an MMORPG
+
+It makes no sense for them to have direct references to one another
+    Those references may gi dead
+
+Solution: have them all refer to some central component that facilitate communication
+
+
+A component that facilitates communication between other components without them necessarily being aware of each other
+or having direct (reference) access to each other.
