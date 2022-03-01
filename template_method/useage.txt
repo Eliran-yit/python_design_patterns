@@ -1,0 +1,14 @@
+Algorithms can be decomposed into the common parts + specifics
+
+Strategy pattern does this through composition
+    High level algorithm expects strategies to conform to an interface
+    Concrete implementations implement the interface
+
+Template Method does the same through inheritance
+    Overall algorithm defined in base class; makes use of abstract members
+    Inheritors override that abstract members
+    Template method invoked to get work done
+
+
+Allows us to define the 'skeleton' of the algorithm, with concrete implementations defined in subclasses.
+
